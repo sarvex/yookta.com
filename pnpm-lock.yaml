@@ -8,19 +8,19 @@ dependencies:
     specifier: 1.1.2
     version: 1.1.2
   '@divriots/jampack':
-    specifier: ^0.11.3
+    specifier: 0.11.3
     version: 0.11.3
   '@fontsource/inter':
-    specifier: ^4.5.15
+    specifier: 4.5.15
     version: 4.5.15
   '@tailwindcss/typography':
-    specifier: ^0.5.9
+    specifier: 0.5.9
     version: 0.5.9(tailwindcss@3.3.2)
   '@types/eslint':
     specifier: 8.37.0
     version: 8.37.0
   '@types/markdown-it':
-    specifier: ^12.2.3
+    specifier: 12.2.3
     version: 12.2.3
   '@types/node':
     specifier: latest
@@ -32,7 +32,7 @@ dependencies:
     specifier: 5.59.6
     version: 5.59.6(eslint@8.40.0)(typescript@5.0.4)
   '@unpic/qwik':
-    specifier: ^0.0.18
+    specifier: 0.0.18
     version: 0.0.18(@builder.io/qwik@1.1.2)
   autoprefixer:
     specifier: 10.4.14
@@ -44,25 +44,25 @@ dependencies:
     specifier: 1.1.2
     version: 1.1.2(eslint@8.40.0)
   gray-matter:
-    specifier: ^4.0.3
+    specifier: 4.0.3
     version: 4.0.3
   markdown-it:
-    specifier: ^13.0.1
+    specifier: 13.0.1
     version: 13.0.1
   node-fetch:
     specifier: 3.3.1
     version: 3.3.1
   postcss:
-    specifier: ^8.4.23
+    specifier: 8.4.23
     version: 8.4.23
   prettier:
     specifier: 2.8.8
     version: 2.8.8
   subfont:
-    specifier: ^7.1.1
+    specifier: 7.1.1
     version: 7.1.1(typescript@5.0.4)
   tailwindcss:
-    specifier: ^3.3.2
+    specifier: 3.3.2
     version: 3.3.2
   typescript:
     specifier: 5.0.4
