@@ -1,4 +1,8 @@
-lockfileVersion: '6.0'
+lockfileVersion: '6.1'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
 
 dependencies:
   '@builder.io/qwik':
@@ -8,8 +12,8 @@ dependencies:
     specifier: 1.1.4
     version: 1.1.4
   '@divriots/jampack':
-    specifier: 0.11.7
-    version: 0.11.7
+    specifier: 0.12.2
+    version: 0.12.2
   '@fontsource/inter':
     specifier: 5.0.1
     version: 5.0.1
@@ -24,7 +28,7 @@ dependencies:
     version: 12.2.3
   '@types/node':
     specifier: latest
-    version: 20.2.4
+    version: 20.2.5
   '@typescript-eslint/eslint-plugin':
     specifier: 5.59.7
     version: 5.59.7(@typescript-eslint/parser@5.59.7)(eslint@8.41.0)(typescript@5.0.4)
@@ -69,7 +73,7 @@ dependencies:
     version: 5.0.4
   vite:
     specifier: 4.3.9
-    version: 4.3.9(@types/node@20.2.4)
+    version: 4.3.9(@types/node@20.2.5)
   vite-tsconfig-paths:
     specifier: 4.2.0
     version: 4.2.0(typescript@5.0.4)(vite@4.3.9)
@@ -149,8 +153,8 @@ packages:
       whatwg-mimetype: 3.0.0
     dev: false
 
-  /@divriots/jampack@0.11.7:
-    resolution: {integrity: sha512-vl3flmy0LIiEh0ogBak5/zypXbZPz9LQ2ZEYCu9TIpLRut3Oghf3d56I7Ij9fFxPL0qS7minGtxTqtSkkCwkQw==}
+  /@divriots/jampack@0.12.2:
+    resolution: {integrity: sha512-eKOVEixxgs18YVEkm1T0sBcjUkJhMdxjX5HLkfRdeLksKXJ+uSVWOdKJlECX4TJXEAl78Jf+SPvIuVaLe02Irw==}
     engines: {node: '>=14.0.0'}
     hasBin: true
     dependencies:
@@ -170,6 +174,7 @@ packages:
       sharp: 0.32.1
       svgo: 3.0.2
       table: 6.8.1
+      undici: 5.22.1
     transitivePeerDependencies:
       - '@swc/helpers'
     dev: false
@@ -795,8 +800,8 @@ packages:
     resolution: {integrity: sha512-iiUgKzV9AuaEkZqkOLDIvlQiL6ltuZd9tGcW3gwpnX8JbuiuhFlEGmmFXEXkN50Cvq7Os88IY2v0dkDqXYWVgA==}
     dev: false
 
-  /@types/node@20.2.4:
-    resolution: {integrity: sha512-ni5f8Xlf4PwnT/Z3f0HURc3ZSw8UyrqMqmM3L5ysa7VjHu8c3FOmIo1nKCcLrV/OAmtf3N4kFna/aJqxsfEtnA==}
+  /@types/node@20.2.5:
+    resolution: {integrity: sha512-JJulVEQXmiY9Px5axXHeYGLSjhkZEnD+MDPDGbCbIAbMslkKwmygtZFy1X6s/075Yo94sf8GuSlFfPzysQrWZQ==}
     dev: false
 
   /@types/normalize-package-data@2.4.1:
@@ -815,7 +820,7 @@ packages:
     resolution: {integrity: sha512-Cn6WYCm0tXv8p6k+A8PvbDG763EDpBoTzHdA+Q/MF6H3sapGjCm9NzoaJncJS9tUKSuCoDs9XHxYYsQDgxR6kw==}
     requiresBuild: true
     dependencies:
-      '@types/node': 20.2.4
+      '@types/node': 20.2.5
     dev: false
     optional: true
 
@@ -6020,13 +6025,13 @@ packages:
       debug: 4.3.4
       globrex: 0.1.2
       tsconfck: 2.1.1(typescript@5.0.4)
-      vite: 4.3.9(@types/node@20.2.4)
+      vite: 4.3.9(@types/node@20.2.5)
     transitivePeerDependencies:
       - supports-color
       - typescript
     dev: false
 
-  /vite@4.3.9(@types/node@20.2.4):
+  /vite@4.3.9(@types/node@20.2.5):
     resolution: {integrity: sha512-qsTNZjO9NoJNW7KnOrgYwczm0WctJ8m/yqYAMAK9Lxt4SoySUfS5S8ia9K7JHpa3KEeMfyF8LoJ3c5NeBJy6pg==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
@@ -6051,7 +6056,7 @@ packages:
       terser:
         optional: true
     dependencies:
-      '@types/node': 20.2.4
+      '@types/node': 20.2.5
       esbuild: 0.17.18
       postcss: 8.4.23
       rollup: 3.21.5
