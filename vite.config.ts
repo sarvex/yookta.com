@@ -8,24 +8,24 @@ import { SITE } from './src/config.mjs';
 const path = require('path');
 
 export default defineConfig(() => {
-    return {
-        base: SITE.basePathname,
-        plugins: [
-            qwikCity({
-                trailingSlash: SITE.trailingSlash,
-            }),
-            qwikVite(),
-            tsconfigPaths(),
-        ],
-        preview: {
-            headers: {
-                'Cache-Control': 'public, max-age=600',
-            },
-        },
-        resolve: {
-            alias: {
-                '~': path.resolve(__dirname, './src'),
-            },
-        },
-    };
+  return {
+    base: SITE.basePathname,
+    plugins: [
+      qwikCity({
+        trailingSlash: SITE.trailingSlash,
+      }),
+      qwikVite(),
+      tsconfigPaths(),
+    ],
+    preview: {
+      headers: {
+        'Cache-Control': 'public, max-age=600',
+      },
+    },
+    resolve: {
+      alias: {
+        '~': path.resolve(__dirname, './src'),
+      },
+    },
+  };
 });
