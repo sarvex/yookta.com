@@ -36,8 +36,8 @@ devDependencies:
     specifier: 5.60.0
     version: 5.60.0(eslint@8.43.0)(typescript@5.1.3)
   '@unpic/qwik':
-    specifier: 0.0.19
-    version: 0.0.19(@builder.io/qwik@1.1.5)
+    specifier: 0.0.20
+    version: 0.0.20(@builder.io/qwik@1.1.5)
   autoprefixer:
     specifier: 10.4.14
     version: 10.4.14(postcss@8.4.24)
@@ -2626,20 +2626,13 @@ packages:
       eslint-visitor-keys: 3.4.1
     dev: true
 
-  /@unpic/core@0.0.24:
-    resolution: {integrity: sha512-HFa7ry3iNYfIOkaWGb0N/w1sxt6MAyUfoXXOvjyz50vtomDUbxK4krcRcQWIca64bORQKncxeJbGETRQLF20WQ==}
-    dependencies:
-      unpic: 3.6.1
-    dev: true
-
-  /@unpic/qwik@0.0.19(@builder.io/qwik@1.1.5):
-    resolution: {integrity: sha512-asbwaA0RF3StVJ+OyEwBNtOLvkgS4eFFPwWQoKPnjrZVZE+DrYs56713zpiMinICBsT30171LriidBuCZHWcGg==}
+  /@unpic/qwik@0.0.20(@builder.io/qwik@1.1.5):
+    resolution: {integrity: sha512-iDQCwKtM0rmb/0+1/2JDYjQHBoeaMBo0fhtlVF4+usLe8EEQMCvx/ZZj6xxCaKs3clgcfyJq1OoDT/o9p98qTQ==}
     engines: {node: '>=15.0.0'}
     peerDependencies:
       '@builder.io/qwik': '*'
     dependencies:
       '@builder.io/qwik': 1.1.5(undici@5.22.1)
-      '@unpic/core': 0.0.24
     dev: true
 
   /@vanilla-extract/babel-plugin-debug-ids@1.0.3:
@@ -10083,10 +10076,6 @@ packages:
   /universalify@2.0.0:
     resolution: {integrity: sha512-hAZsKq7Yy11Zu1DE0OzWjw7nnLZmJZYTDZZyEFHZdUhV8FkH5MCfoU1XMaxXovpyW5nq5scPqq0ZDP9Zyl04oQ==}
     engines: {node: '>= 10.0.0'}
-    dev: true
-
-  /unpic@3.6.1:
-    resolution: {integrity: sha512-4/ZAW3vXkvU2tpyuuAaIrlg58rh55EfzCFDJCxaaua/Ru8Q5f3bABjh5KQtQqRULzV6OaT05PF2pB6h1by98sg==}
     dev: true
 
   /unpipe@1.0.0:
