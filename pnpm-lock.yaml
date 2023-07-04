@@ -9,8 +9,8 @@ devDependencies:
     specifier: 1.1.5
     version: 1.1.5(undici@5.22.1)
   '@builder.io/qwik-city':
-    specifier: 1.1.5
-    version: 1.1.5
+    specifier: 1.2.4
+    version: 1.2.4
   '@divriots/jampack':
     specifier: 0.13.0
     version: 0.13.0
@@ -1370,16 +1370,19 @@ packages:
       to-fast-properties: 2.0.0
     dev: true
 
-  /@builder.io/qwik-city@1.1.5:
-    resolution: {integrity: sha512-AzIlyyP8nmv3DRXVtiBUcjMtazIaLr0U3hHoieqrtK+XfdhTXdKjzFX9ceUj0zSwX4wrvX86BtwrYJDMeJ+AuA==}
+  /@builder.io/qwik-city@1.2.4:
+    resolution: {integrity: sha512-WAYf7ZsYpyR7NrLW8VjyQ2GehD4HruD1T3DtQ0ga8S+2IDUXiQY3zW81y2wr3h+FQhfwctGB9xK3cj04ZM+WlA==}
     engines: {node: '>=16.8.0 <18.0.0 || >=18.11'}
     dependencies:
       '@mdx-js/mdx': 2.3.0
       '@types/mdx': 2.0.5
       source-map: 0.7.4
+      svgo: 3.0.2
       vfile: 5.3.7
+      vite-imagetools: 5.0.4
       zod: 3.21.4
     transitivePeerDependencies:
+      - rollup
       - supports-color
     dev: true
 
@@ -2180,6 +2183,20 @@ packages:
     resolution: {integrity: sha512-iKnFXr7NkdZAIHiIWE+BX5ULi/ucVFYWD6TbAV+rZctiRTY2PL6tsIKhoIOaoskiWAkgu+VsbXgUVDNLHf+InQ==}
     engines: {node: '>= 8.0.0'}
     dependencies:
+      estree-walker: 2.0.2
+      picomatch: 2.3.1
+    dev: true
+
+  /@rollup/pluginutils@5.0.2:
+    resolution: {integrity: sha512-pTd9rIsP92h+B6wWwFbW8RkZv4hiR/xKsqre4SIuAOaOEQRxi0lqLke9k2/7WegC85GgUs9pjmOjCUi3In4vwA==}
+    engines: {node: '>=14.0.0'}
+    peerDependencies:
+      rollup: ^1.20.0||^2.0.0||^3.0.0
+    peerDependenciesMeta:
+      rollup:
+        optional: true
+    dependencies:
+      '@types/estree': 1.0.1
       estree-walker: 2.0.2
       picomatch: 2.3.1
     dev: true
@@ -5953,6 +5970,13 @@ packages:
   /imageinfo@1.0.4:
     resolution: {integrity: sha512-BJml4q/QCO2187F4UcO/b6hTYIhbq4nnd1XNs65jyCED9em4m6XmeGWDxjewjfJoC7VJABhOdmqb64KA24rLZw==}
     engines: {node: '>=0.4'}
+    dev: true
+
+  /imagetools-core@4.0.3:
+    resolution: {integrity: sha512-Cn+xuuRiA2UC5XzSWKWaRBJGA9iFhwtaVLUIgujfv6SM4TF/wOAwAqWeZkbv/yyhmapdhFR5stsKE9owUge0jQ==}
+    engines: {node: '>=12.0.0'}
+    dependencies:
+      sharp: 0.32.1
     dev: true
 
   /import-fresh@3.3.0:
@@ -10213,6 +10237,16 @@ packages:
       is-buffer: 2.0.5
       unist-util-stringify-position: 3.0.3
       vfile-message: 3.1.4
+    dev: true
+
+  /vite-imagetools@5.0.4:
+    resolution: {integrity: sha512-EIRstqWlmoQipsucFCioqCYpfp+rG5v8gpKDFvFJBxEKEAEBPnxW+swmE5dfoRQkwMKkYwmBWeXYsnMaDohUtg==}
+    engines: {node: '>=12.0.0'}
+    dependencies:
+      '@rollup/pluginutils': 5.0.2
+      imagetools-core: 4.0.3
+    transitivePeerDependencies:
+      - rollup
     dev: true
 
   /vite-node@0.28.5(@types/node@20.3.3):
