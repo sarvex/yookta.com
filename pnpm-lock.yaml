@@ -42,13 +42,13 @@ devDependencies:
     version: 7.5.3(react-dom@18.2.0)(react@18.2.0)
   '@storybook/builder-vite':
     specifier: 7.5.3
-    version: 7.5.3(typescript@5.3.2)(vite@5.0.0)
+    version: 7.5.3(typescript@5.3.2)(vite@5.0.2)
   '@storybook/html':
     specifier: 7.5.3
     version: 7.5.3(@babel/core@7.22.9)
   '@storybook/html-vite':
     specifier: 7.5.3
-    version: 7.5.3(@babel/core@7.22.9)(react-dom@18.2.0)(react@18.2.0)(typescript@5.3.2)(vite@5.0.0)
+    version: 7.5.3(@babel/core@7.22.9)(react-dom@18.2.0)(react@18.2.0)(typescript@5.3.2)(vite@5.0.2)
   '@types/eslint':
     specifier: 8.44.7
     version: 8.44.7
@@ -87,7 +87,7 @@ devDependencies:
     version: 7.5.3
   storybook-framework-qwik:
     specifier: 0.2.4
-    version: 0.2.4(@builder.io/qwik@1.2.18)(@types/node@20.9.3)(typescript@5.3.2)(vite@5.0.0)
+    version: 0.2.4(@builder.io/qwik@1.2.18)(@types/node@20.9.3)(typescript@5.3.2)(vite@5.0.2)
   tailwindcss:
     specifier: 3.3.5
     version: 3.3.5
@@ -98,14 +98,14 @@ devDependencies:
     specifier: 5.27.2
     version: 5.27.2
   vercel:
-    specifier: 32.5.5
-    version: 32.5.5
+    specifier: 32.5.6
+    version: 32.5.6
   vite:
-    specifier: 5.0.0
-    version: 5.0.0(@types/node@20.9.3)
+    specifier: 5.0.2
+    version: 5.0.2(@types/node@20.9.3)
   vite-tsconfig-paths:
     specifier: 4.2.1
-    version: 4.2.1(typescript@5.3.2)(vite@5.0.0)
+    version: 4.2.1(typescript@5.3.2)(vite@5.0.2)
   vitest:
     specifier: 0.34.6
     version: 0.34.6(@vitest/ui@0.34.6)
@@ -3302,7 +3302,7 @@ packages:
       - supports-color
     dev: true
 
-  /@storybook/builder-vite@7.5.3(typescript@5.3.2)(vite@5.0.0):
+  /@storybook/builder-vite@7.5.3(typescript@5.3.2)(vite@5.0.2):
     resolution: {integrity: sha512-c104V3O75OCVnfZj0Jr70V09g0KSbPGvQK2Zh31omXGvakG8XrhWolYxkmjOcForJmAqsXnKs/nw3F75Gp853g==}
     peerDependencies:
       '@preact/preset-vite': '*'
@@ -3334,7 +3334,7 @@ packages:
       magic-string: 0.30.1
       rollup: 3.28.0
       typescript: 5.3.2
-      vite: 5.0.0(@types/node@20.9.3)
+      vite: 5.0.2(@types/node@20.9.3)
     transitivePeerDependencies:
       - encoding
       - supports-color
@@ -3675,12 +3675,12 @@ packages:
     resolution: {integrity: sha512-FcOqPAXACP0I3oJ/ws6/rrPT9WGhu915Cg8D02a9YxLo0DE9zI+a9A5gRGvmQ09fiWPukqI8ZAEoQEdWUKMQdQ==}
     dev: true
 
-  /@storybook/html-vite@7.5.3(@babel/core@7.22.9)(react-dom@18.2.0)(react@18.2.0)(typescript@5.3.2)(vite@5.0.0):
+  /@storybook/html-vite@7.5.3(@babel/core@7.22.9)(react-dom@18.2.0)(react@18.2.0)(typescript@5.3.2)(vite@5.0.2):
     resolution: {integrity: sha512-EWrkhPaQH1SEKmchoNwiBMZJHDrA6/UsDeX4fmiMh35C5yhQeGuzgIYSYgwjq3O0ITcF394lyAhyI9HSPT+W5g==}
     engines: {node: ^14.18 || >=16}
     dependencies:
       '@storybook/addons': 7.5.3(react-dom@18.2.0)(react@18.2.0)
-      '@storybook/builder-vite': 7.5.3(typescript@5.3.2)(vite@5.0.0)
+      '@storybook/builder-vite': 7.5.3(typescript@5.3.2)(vite@5.0.2)
       '@storybook/client-api': 7.5.3
       '@storybook/core-server': 7.5.3
       '@storybook/html': 7.5.3(@babel/core@7.22.9)
@@ -4410,8 +4410,8 @@ packages:
       ts-morph: 12.0.0
     dev: true
 
-  /@vercel/next@4.0.14:
-    resolution: {integrity: sha512-29x93X278ElpbftrSgHvdY9OGVZkHurm3ST/WbdyE/AASEuqwOvShkpAoQl8idlFJFHPjd4c2v5xv1ZVyEb6sg==}
+  /@vercel/next@4.0.15:
+    resolution: {integrity: sha512-BxMxIJrya7MS6IWrQIaQaYHPmq7WoZFLX909RBpNoAG5wgzrTrW756d2EsibBwGo7sQYBv2atyI5GqBIHzYbWg==}
     dependencies:
       '@vercel/nft': 0.24.2
     transitivePeerDependencies:
@@ -4503,8 +4503,8 @@ packages:
       ajv: 6.12.6
     dev: true
 
-  /@vercel/ruby@2.0.2:
-    resolution: {integrity: sha512-MqFynhtZ905L210DWAbgkiEQEK39LTtp9eL2Nm6PjzhjNzU6hV0UfK8Z24vU9CC6J4mrUTTZx396fH7XTYJWqg==}
+  /@vercel/ruby@2.0.3:
+    resolution: {integrity: sha512-INZjBvBxQlANvj7LvHeXtfjpU+ZtwGL45vyys5+hI594MokpkrKdzUaTuK4kUX+KsEJUR7Xule5JiS89fW77BA==}
     dev: true
 
   /@vercel/static-build@2.0.12:
@@ -9840,14 +9840,14 @@ packages:
     resolution: {integrity: sha512-siT1RiqlfQnGqgT/YzXVUNsom9S0H1OX+dpdGN1xkyYATo4I6sep5NmsRD/40s3IIOvlCq6akxkqG82urIZW1w==}
     dev: true
 
-  /storybook-framework-qwik@0.2.4(@builder.io/qwik@1.2.18)(@types/node@20.9.3)(typescript@5.3.2)(vite@5.0.0):
+  /storybook-framework-qwik@0.2.4(@builder.io/qwik@1.2.18)(@types/node@20.9.3)(typescript@5.3.2)(vite@5.0.2):
     resolution: {integrity: sha512-+2H5vx32qYLRU8j4N9ZckwJBzpiMzDHzU6MD8MS107LLfoW9Fe8X4CY8FVzbzWwRwYaQL5QRWCo4TxtNgpeK8Q==}
     engines: {node: ^14.18 || >=16}
     peerDependencies:
       '@builder.io/qwik': '>=0.15.2'
     dependencies:
       '@builder.io/qwik': 1.2.18(@types/node@20.9.3)(undici@5.27.2)
-      '@storybook/builder-vite': 7.5.3(typescript@5.3.2)(vite@5.0.0)
+      '@storybook/builder-vite': 7.5.3(typescript@5.3.2)(vite@5.0.2)
       '@storybook/docs-tools': 7.4.0
       magic-string: 0.30.1
       react-docgen-typescript: 2.2.2(typescript@5.3.2)
@@ -10730,8 +10730,8 @@ packages:
     engines: {node: '>= 0.8'}
     dev: true
 
-  /vercel@32.5.5:
-    resolution: {integrity: sha512-243EMaVsFyqrbbiD7kNfGTc+AYQ86k8PaQzFIELFzKRV7cbGWUGqmPiHNZR4XZlHd96S3FHGqWz5HNtzZKQNEQ==}
+  /vercel@32.5.6:
+    resolution: {integrity: sha512-r6MaU4qiMg2xqSCD8qUt6iEG65BL+8PE2tCryANQ5cmYpK2Yg+IAeM1Fsbm/K7eox24S5ubXji3Um8FXrMNHpQ==}
     engines: {node: '>= 16'}
     hasBin: true
     dependencies:
@@ -10739,12 +10739,12 @@ packages:
       '@vercel/fun': 1.1.0
       '@vercel/go': 3.0.3
       '@vercel/hydrogen': 1.0.1
-      '@vercel/next': 4.0.14
+      '@vercel/next': 4.0.15
       '@vercel/node': 3.0.11
       '@vercel/python': 4.1.0
       '@vercel/redwood': 2.0.5
       '@vercel/remix-builder': 2.0.11
-      '@vercel/ruby': 2.0.2
+      '@vercel/ruby': 2.0.3
       '@vercel/static-build': 2.0.12
       chokidar: 3.3.1
     transitivePeerDependencies:
@@ -10800,7 +10800,7 @@ packages:
       mlly: 1.4.0
       pathe: 1.1.1
       picocolors: 1.0.0
-      vite: 5.0.0(@types/node@20.9.3)
+      vite: 5.0.2(@types/node@20.9.3)
     transitivePeerDependencies:
       - '@types/node'
       - less
@@ -10812,7 +10812,7 @@ packages:
       - terser
     dev: true
 
-  /vite-tsconfig-paths@4.2.1(typescript@5.3.2)(vite@5.0.0):
+  /vite-tsconfig-paths@4.2.1(typescript@5.3.2)(vite@5.0.2):
     resolution: {integrity: sha512-GNUI6ZgPqT3oervkvzU+qtys83+75N/OuDaQl7HmOqFTb0pjZsuARrRipsyJhJ3enqV8beI1xhGbToR4o78nSQ==}
     peerDependencies:
       vite: '*'
@@ -10823,7 +10823,7 @@ packages:
       debug: 4.3.4
       globrex: 0.1.2
       tsconfck: 2.1.1(typescript@5.3.2)
-      vite: 5.0.0(@types/node@20.9.3)
+      vite: 5.0.2(@types/node@20.9.3)
     transitivePeerDependencies:
       - supports-color
       - typescript
@@ -10864,8 +10864,8 @@ packages:
     optionalDependencies:
       fsevents: 2.3.3
 
-  /vite@5.0.0(@types/node@20.9.3):
-    resolution: {integrity: sha512-ESJVM59mdyGpsiNAeHQOR/0fqNoOyWPYesFto8FFZugfmhdHx8Fzd8sF3Q/xkVhZsyOxHfdM7ieiVAorI9RjFw==}
+  /vite@5.0.2(@types/node@20.9.3):
+    resolution: {integrity: sha512-6CCq1CAJCNM1ya2ZZA7+jS2KgnhbzvxakmlIjN24cF/PXhRMzpM/z8QgsVJA/Dm5fWUWnVEsmtBoMhmerPxT0g==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
     peerDependencies:
@@ -10953,7 +10953,7 @@ packages:
       strip-literal: 1.0.1
       tinybench: 2.5.0
       tinypool: 0.7.0
-      vite: 5.0.0(@types/node@20.9.3)
+      vite: 5.0.2(@types/node@20.9.3)
       vite-node: 0.34.6(@types/node@20.9.3)
       why-is-node-running: 2.2.2
     transitivePeerDependencies:
