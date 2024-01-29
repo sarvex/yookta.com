@@ -61,7 +61,7 @@
   "dependencies": {
     "@modular-forms/qwik": "0.23.1",
     "@qwikest/icons": "0.0.13",
-    "@unpic/qwik": "0.0.40",
+    "@unpic/qwik": "0.0.41",
     "qwik-image": "0.0.8"
   }
 }
