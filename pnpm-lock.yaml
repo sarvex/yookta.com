@@ -7,7 +7,7 @@ settings:
 dependencies:
   '@modular-forms/qwik':
     specifier: 0.24.0
-    version: 0.24.0(@builder.io/qwik-city@1.5.5)(@builder.io/qwik@1.5.5)
+    version: 0.24.0(@builder.io/qwik-city@1.6.0)(@builder.io/qwik@1.5.5)
   '@qwikest/icons':
     specifier: 0.0.13
     version: 0.0.13(@builder.io/qwik@1.5.5)
@@ -26,8 +26,8 @@ devDependencies:
     specifier: 1.5.5
     version: 1.5.5(@types/node@20.14.2)(undici@6.18.2)
   '@builder.io/qwik-city':
-    specifier: 1.5.5
-    version: 1.5.5(@types/node@20.14.2)
+    specifier: 1.6.0
+    version: 1.6.0(@types/node@20.14.2)
   '@playwright/test':
     specifier: 1.44.1
     version: 1.44.1
@@ -1417,7 +1417,7 @@ packages:
     requiresBuild: true
     dependencies:
       '@mdx-js/mdx': 2.3.0
-      '@types/mdx': 2.0.9
+      '@types/mdx': 2.0.13
       source-map: 0.7.4
       svgo: 3.2.0
       undici: 6.18.2
@@ -1438,8 +1438,8 @@ packages:
     dev: true
     optional: true
 
-  /@builder.io/qwik-city@1.5.5(@types/node@20.14.2):
-    resolution: {integrity: sha512-Xi/1WqrB91CpZcAXs43OC87+7h89hJczJp43FXUMrvTHGeUsR/udhpz6SZWI/mHh0PFNx6f0A59tPmtDDzYl0Q==}
+  /@builder.io/qwik-city@1.6.0(@types/node@20.14.2):
+    resolution: {integrity: sha512-XulIdmrPkdIA8yatRolyWtyVsmKB/CsamOb3loOaLc4ptHt5NMJiGCiS9axlyaqpAuy2LjZqb7S0ATACkjeK5w==}
     engines: {node: '>=16.8.0 <18.0.0 || >=18.11'}
     dependencies:
       '@mdx-js/mdx': 3.0.1
@@ -2305,14 +2305,14 @@ packages:
       react: 18.2.0
     dev: true
 
-  /@modular-forms/qwik@0.24.0(@builder.io/qwik-city@1.5.5)(@builder.io/qwik@1.5.5):
+  /@modular-forms/qwik@0.24.0(@builder.io/qwik-city@1.6.0)(@builder.io/qwik@1.5.5):
     resolution: {integrity: sha512-mF+cOw2lmiEjCf7odYW65d1gxp5ozqAbDfX5Z6yAt0wE7wsRHBZgi0YoXAh63vRCEcR5UMG/9kdTXj3KCjxhug==}
     peerDependencies:
       '@builder.io/qwik': ^1.4.0
       '@builder.io/qwik-city': ^1.4.0
     dependencies:
       '@builder.io/qwik': 1.5.5(@types/node@20.14.2)(undici@6.18.2)
-      '@builder.io/qwik-city': 1.5.5(@types/node@20.14.2)
+      '@builder.io/qwik-city': 1.6.0(@types/node@20.14.2)
       decode-formdata: 0.7.2
     dev: false
 
@@ -3775,12 +3775,6 @@ packages:
 
   /@types/mdx@2.0.13:
     resolution: {integrity: sha512-+OWZQfAYyio6YkJb3HLxDrvnx6SWWDbC0zVPfBRzUk0/nqoDyf6dNxQi3eArPe8rJ473nobTMQ/8Zk+LxJ+Yuw==}
-
-  /@types/mdx@2.0.9:
-    resolution: {integrity: sha512-OKMdj17y8Cs+k1r0XFyp59ChSOwf8ODGtMQ4mnpfz5eFDk1aO41yN3pSKGuvVzmWAkFp37seubY1tzOVpwfWwg==}
-    requiresBuild: true
-    dev: true
-    optional: true
 
   /@types/mime@1.3.2:
     resolution: {integrity: sha512-YATxVxgRqNH6nHEIsvg6k2Boc1JHI9ZbH5iWFFv/MTkchz3b1ieGDa5T0a9RznNdI0KhVbdbWSN+KWWrQZRxTw==}
