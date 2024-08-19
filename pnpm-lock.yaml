@@ -50,8 +50,8 @@ devDependencies:
     specifier: 8.1.6
     version: 8.1.6(prettier@3.3.3)(react-dom@18.2.0)(react@18.2.0)(typescript@5.5.4)(vite@5.2.12)
   '@types/eslint':
-    specifier: 8.56.11
-    version: 8.56.11
+    specifier: 9.6.0
+    version: 9.6.0
   '@types/node':
     specifier: 20.16.1
     version: 20.16.1
@@ -3694,8 +3694,8 @@ packages:
     resolution: {integrity: sha512-tLqYV94vuqDrXh515F/FOGtBcRMTPGvVV1LzLbtYDcQmmhtpf/gLYf+hikBbQk8MzOHNz37wpFfJbYAuSn8HqA==}
     dev: true
 
-  /@types/eslint@8.56.11:
-    resolution: {integrity: sha512-sVBpJMf7UPo/wGecYOpk2aQya2VUGeHhe38WG7/mN5FufNSubf5VT9Uh9Uyp8/eLJpu1/tuhJ/qTo4mhSB4V4Q==}
+  /@types/eslint@9.6.0:
+    resolution: {integrity: sha512-gi6WQJ7cHRgZxtkQEoyHMppPjq9Kxo5Tjn2prSKDSmZrCz8TZ3jSRCeTJm+WoM+oB0WG37bRqLzaaU3q7JypGg==}
     dependencies:
       '@types/estree': 1.0.5
       '@types/json-schema': 7.0.12
