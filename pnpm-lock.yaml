@@ -95,8 +95,8 @@ devDependencies:
     specifier: 5.5.4
     version: 5.5.4
   undici:
-    specifier: 6.19.2
-    version: 6.19.2
+    specifier: 6.21.1
+    version: 6.21.1
   vercel:
     specifier: 36.0.0
     version: 36.0.0
@@ -1413,7 +1413,7 @@ packages:
       '@types/mdx': 2.0.9
       source-map: 0.7.4
       svgo: 3.2.0
-      undici: 6.19.2
+      undici: 6.21.1
       vfile: 6.0.1
       vite: 5.2.12(@types/node@20.16.1)
       vite-imagetools: 6.2.9
@@ -1439,7 +1439,7 @@ packages:
       '@types/mdx': 2.0.13
       source-map: 0.7.4
       svgo: 3.2.0
-      undici: 6.19.2
+      undici: 6.21.1
       vfile: 6.0.1
       vite: 5.2.12(@types/node@20.16.1)
       vite-imagetools: 6.2.9
@@ -9402,8 +9402,8 @@ packages:
       '@fastify/busboy': 2.0.0
     dev: true
 
-  /undici@6.19.2:
-    resolution: {integrity: sha512-JfjKqIauur3Q6biAtHJ564e3bWa8VvT+7cSiOJHFbX4Erv6CLGDpg8z+Fmg/1OI/47RA+GI2QZaF48SSaLvyBA==}
+  /undici@6.21.1:
+    resolution: {integrity: sha512-q/1rj5D0/zayJB2FraXdaWxbhWiNKDvu8naDT2dl1yTlvJp4BLtOcp2a5BvgGNQpYYJzau7tf1WgKv3b+7mqpQ==}
     engines: {node: '>=18.17'}
 
   /unicode-canonical-property-names-ecmascript@2.0.0:
