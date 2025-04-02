@@ -7,7 +7,7 @@ settings:
 dependencies:
   '@modular-forms/qwik':
     specifier: 0.29.1
-    version: 0.29.1(@builder.io/qwik-city@1.12.1)(@builder.io/qwik@1.12.1)(typescript@5.8.2)
+    version: 0.29.1(@builder.io/qwik-city@1.13.0)(@builder.io/qwik@1.12.1)(typescript@5.8.2)
   '@qwikest/icons':
     specifier: 0.0.13
     version: 0.0.13(@builder.io/qwik@1.12.1)
@@ -26,8 +26,8 @@ devDependencies:
     specifier: 1.12.1
     version: 1.12.1(vite@6.2.4)
   '@builder.io/qwik-city':
-    specifier: 1.12.1
-    version: 1.12.1(typescript@5.8.2)(vite@6.2.4)
+    specifier: 1.13.0
+    version: 1.13.0(typescript@5.8.2)(vite@6.2.4)
   '@playwright/test':
     specifier: 1.51.1
     version: 1.51.1
@@ -157,8 +157,8 @@ packages:
     hasBin: true
     dev: true
 
-  /@builder.io/qwik-city@1.12.1(typescript@5.8.2)(vite@6.2.4):
-    resolution: {integrity: sha512-YLW+33PZVoc4O30J99Fs3uNNpi7BszPzaITKoW66Sphju5Ptn6HDQkfnBu2sHFB0bh8hWLWatAjOM1HXg/C96Q==}
+  /@builder.io/qwik-city@1.13.0(typescript@5.8.2)(vite@6.2.4):
+    resolution: {integrity: sha512-CDo5/JBLyJkC8uWn/DO5SnhXzGPLr9ecbAprloQMwoDaYFh846DRXhD+dK1Sqoa84O40+dk3p5Zltf2SkXdV2w==}
     engines: {node: '>=16.8.0 <18.0.0 || >=18.11'}
     peerDependencies:
       vite: ^5
@@ -990,14 +990,14 @@ packages:
       react: 18.2.0
     dev: true
 
-  /@modular-forms/qwik@0.29.1(@builder.io/qwik-city@1.12.1)(@builder.io/qwik@1.12.1)(typescript@5.8.2):
+  /@modular-forms/qwik@0.29.1(@builder.io/qwik-city@1.13.0)(@builder.io/qwik@1.12.1)(typescript@5.8.2):
     resolution: {integrity: sha512-xJb8wZXHEL0ioM5TlDpHUrXE4VKDf5OZbSoMtzmew9aHUGMDfsIGzSim408LaHHXa233YB76RhQZZAmO5Pgitg==}
     peerDependencies:
       '@builder.io/qwik': ^1.9.0 || ^2.0.0
       '@builder.io/qwik-city': ^1.9.0 || ^2.0.0
     dependencies:
       '@builder.io/qwik': 1.12.1(vite@6.2.4)
-      '@builder.io/qwik-city': 1.12.1(typescript@5.8.2)(vite@6.2.4)
+      '@builder.io/qwik-city': 1.13.0(typescript@5.8.2)(vite@6.2.4)
       decode-formdata: 0.8.0
       valibot: 1.0.0(typescript@5.8.2)
     transitivePeerDependencies:
@@ -1053,19 +1053,6 @@ packages:
       '@builder.io/qwik': 1.12.1(vite@6.2.4)
     dev: false
 
-  /@rollup/pluginutils@5.1.0:
-    resolution: {integrity: sha512-XTIWOPPcpvyKI6L1NHo0lFlCyznUEyPmPY1mc3KpPVDYulHSTvyeLNVW00QTLIAFNhR3kYnJTQHeGqU4M3n09g==}
-    engines: {node: '>=14.0.0'}
-    peerDependencies:
-      rollup: ^1.20.0||^2.0.0||^3.0.0||^4.0.0
-    peerDependenciesMeta:
-      rollup:
-        optional: true
-    dependencies:
-      '@types/estree': 1.0.6
-      estree-walker: 2.0.2
-      picomatch: 2.3.1
-
   /@rollup/pluginutils@5.1.4:
     resolution: {integrity: sha512-USm05zrsFxYLPdWWq+K3STlWiT/3ELn3RcV5hJMghpeAIhxfsUIg6mt12CBJBInWMV4VneoV7SfGv8xIwo2qNQ==}
     engines: {node: '>=14.0.0'}
@@ -1078,7 +1065,6 @@ packages:
       '@types/estree': 1.0.6
       estree-walker: 2.0.2
       picomatch: 4.0.2
-    dev: true
 
   /@rollup/rollup-android-arm-eabi@4.37.0:
     resolution: {integrity: sha512-l7StVw6WAa8l3vA1ov80jyetOAEo1FtHvZDbzXDO/02Sq/QVvqlHkYoFwDJPIMj0GKiistsBudfx5tGFnwYWDQ==}
@@ -5159,11 +5145,11 @@ packages:
   /picomatch@2.3.1:
     resolution: {integrity: sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==}
     engines: {node: '>=8.6'}
+    dev: true
 
   /picomatch@4.0.2:
     resolution: {integrity: sha512-M7BAV6Rlcy5u+m6oPhAPFgJTzAioX/6B0DxyvDlo9l8+T3nLKbrczg2WLUyzd45L8RqfUMyGPzekbMvX2Ldkwg==}
     engines: {node: '>=12'}
-    dev: true
 
   /pkg-dir@4.2.0:
     resolution: {integrity: sha512-HRDzbaKjC+AOWVXxAU/x54COGeIv9eb+6CkDSQoNTt4XyWoIJvuPsXizxu/Fr23EiekbtZwmh1IcIG/l/a10GQ==}
@@ -5654,7 +5640,7 @@ packages:
       magic-string: 0.30.10
       react-docgen-typescript: 2.2.2(typescript@5.8.2)
     optionalDependencies:
-      '@builder.io/qwik-city': 1.12.1(typescript@5.8.2)(vite@6.2.4)
+      '@builder.io/qwik-city': 1.13.0(typescript@5.8.2)(vite@6.2.4)
     transitivePeerDependencies:
       - encoding
       - rollup
@@ -6216,7 +6202,7 @@ packages:
     resolution: {integrity: sha512-OOvVnaBTqJJ2J7X1cM1qpH4pj9jsfTxia1VSuWeyXtf+OnP8d0YI1LHpv8y2NT47wg+n7XiTgh3BvcSffuBWrw==}
     engines: {node: '>=18.0.0'}
     dependencies:
-      '@rollup/pluginutils': 5.1.0
+      '@rollup/pluginutils': 5.1.4
       imagetools-core: 7.0.2
       sharp: 0.33.5
     transitivePeerDependencies:
